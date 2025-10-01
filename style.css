@@ -1,0 +1,78 @@
+*
+{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+
+}
+#header
+{
+    height: 180px;
+    background-color: rgb(33, 48, 144);
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: larger;
+}
+#about
+{
+    height: 100px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 145px;
+    margin-top: 80px;
+}
+
+.p1
+{
+    height: 250px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 145px;
+    margin-top: 40px;
+    padding-top: 50px;
+    
+}
+
+.p1 h3
+{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+.p1 h5{
+    margin-left: 150px;
+    height: 40px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.2em;
+}
+#edu
+{
+    background-color: rgb(92, 195, 255);
+}
+#skills
+{
+    background-color: rgb(176, 189, 1);
+}
+#project
+{
+    background-color: rgb(187, 132, 200);
+}
+#contect
+{
+    background-color: rgb(191, 255, 127);
+}
+footer
+{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    margin-top: 30px;
+    height: 50px;
+    padding-top: 15px;
+    color: aliceblue;
+}
