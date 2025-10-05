@@ -1,78 +1,38 @@
 *
 {
     padding: 0%;
-    margin:0%;
+    margin: 0%;
     box-sizing: border-box;
+}
+.main
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1732624697703-c5b0d3110cb4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.back h3{
+    font-size: 60px;
+    color:#F5F5F5;
+    padding-left: 150px;
+    padding-top: 250px;
+    font-family: speed;
 
 }
-#header
+.back button
 {
-    height: 180px;
-    background-color: rgb(33, 48, 144);
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    font-size: larger;
-}
-#about
-{
-    height: 100px;
-    width: 80%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    margin-left: 145px;
-    margin-top: 80px;
-}
-
-.p1
-{
-    height: 250px;
-    width: 80%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    margin-left: 145px;
-    margin-top: 40px;
-    padding-top: 50px;
-    
-}
-
-.p1 h3
-{
-    color: rgb(0, 0, 0);
-    font-size: 2em;
-}
-.p1 h5{
-    margin-left: 150px;
-    height: 40px;
-    width: 70%;
-    background-color: rgb(255, 255, 255);
+    height: 45px;
+    width: 250px;
+    margin-left: 350px;
     margin-top: 10px;
-    text-align: center;
-    padding-top: 5px;
     font-size: 1.2em;
-}
-#edu
-{
-    background-color: rgb(92, 195, 255);
-}
-#skills
-{
-    background-color: rgb(176, 189, 1);
-}
-#project
-{
-    background-color: rgb(187, 132, 200);
-}
-#contect
-{
-    background-color: rgb(191, 255, 127);
-}
-footer
-{
-    text-align: center;
-    background-color: rgb(44, 44, 44);
-    margin-top: 30px;
-    height: 50px;
-    padding-top: 15px;
+    background-color:#6ec8cd3b ;
+    border-radius: 20px;
+    font-family: speed;
     color: aliceblue;
+}
+@font-face {
+    font-family: speed;
+    src: url(./Race\ Sport.ttf);
 }

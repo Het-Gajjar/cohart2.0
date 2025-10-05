@@ -1,0 +1,235 @@
+@font-face {
+    font-family: apple;
+    src: url('./sf-pro-text_semibold.woff2');
+}
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html , body
+{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    
+}
+#first
+{
+    height: 87%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
+    background-size: cover;
+    background-position: 0%;
+}
+#nav
+{
+    background-color: aliceblue;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-family: apple;
+    font-weight: 900;
+}
+#firstlook
+{
+    color: white;
+   
+    text-align: center;
+    padding-top: 45px;
+    font-size: 1.7em;
+    font-family: apple;
+}
+#firstlook h4
+{
+    font-weight: 100;
+}
+#firstlook button{
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 0.6em;
+}
+#b1
+{
+    background-color: #0171E4;
+    color: white;
+    border: none;
+
+}
+#b2
+{
+    margin-left: 10px;
+    background-color: black;
+    color: #0171E4;
+    border-color: #0171E4;
+
+}
+#b2:hover
+{
+    background-color: #0171E4;
+    color: white;
+}
+#second
+{
+    margin-top: 10px;
+    border: 10px;
+    border-color: #FFFFFF;
+    height: 80%;
+    width: 100%;
+    
+    text-align: center;
+    padding-top: 80px;
+    font-size: 1.7em;
+    font-family: apple;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg);
+    background-size: cover;
+}
+#second h4{
+    font-weight: 100;
+}
+#second button{
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 0.6em;
+}
+#sb1
+{
+    background-color: #0171E4;
+    color: white;
+    border: none;
+
+}
+#sb2
+{
+    margin-left: 10px;
+    background-color:F5F5F7 ;
+    color: #0171E4;
+    border-color: #0171E4;
+
+}
+#sb2:hover
+{
+    background-color: #0171E4;
+    color: white;
+}
+#product
+{
+    height: 125%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+#product button{
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 0.6em;
+}
+#i17
+{
+    margin-top: 15px;
+    height: 55%;
+    width: 48%;
+    background-color: #F5F5F7;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 15px;
+    font-size: 1.3em;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-17/promo_iphone_17__bhofuohbsu3m_medium_2x.jpg);
+    background-size: cover;
+     font-family: apple;
+    
+     background-position: 0%;
+}
+.b1
+{
+    background-color: #0171E4;
+    color: white;
+    border: none;
+
+}
+.b2
+{
+    margin-left: 10px;
+    background-color:F5F5F7 ;
+    color: #0171E4;
+    border-color: #0171E4;
+
+}
+.b2:hover
+{
+    background-color: #0171E4;
+    color: white;
+}
+#watch11
+{
+    margin-top: 15px;
+    height: 55%;
+    width: 49%;
+    background-color: #F5F5F7;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 15px;
+    font-size: 1.3em;
+    background-image: url(https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg);
+    background-size: cover;
+     font-family: apple;
+     background-position: 0%;
+}
+#edu
+{
+    
+    margin-top: 15px;
+    height: 55%;
+    width: 48%;
+    background-color: #F5F5F7;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 15px;
+    font-size: 1.3em;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/education/promo_edu__efkxh2h1luoi_medium_2x.jpg);
+    background-size: cover;
+     font-family: apple;
+    
+     background-position: 0%;
+}
+#info
+{
+    padding-top: 300px;
+    color: #FFFFFF;
+}
+#pods
+{
+    margin-top: 15px;
+    height: 55%;
+    width: 49%;
+    background-color: #F5F5F7;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 15px;
+    font-size: 1.3em;
+background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium_2x.jpg);    background-size: cover;
+     font-family: apple;
+     background-position: 0%;
+}
+
+
